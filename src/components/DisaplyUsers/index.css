@@ -1,0 +1,46 @@
+.pagination-container{
+    
+}
+
+.paginationButtons {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.paginationButtons a {
+padding: 10px;
+margin: 8px;
+border-radius: 5px;
+border: 1px solid #2b2eff;
+color: #2b2eff;
+cursor: pointer;
+}
+
+.paginationButtons a:hover {
+color: white;
+background-color: #2b2eff;
+}
+
+.paginationActive a {
+color: white;
+background-color: #2b2eff;
+}
+.footer-pagination-delete-Button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.delete-Selected{
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    border:none;
+}

@@ -1,0 +1,9 @@
+.no-results-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.results-not-found-image{
+    width: 20%;
+}

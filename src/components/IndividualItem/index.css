@@ -1,0 +1,61 @@
+.individual-user-info-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.individual-title-item{
+    text-align: left;
+}
+.button-design{
+    background-color: transparent;
+    border: none;
+}
+.edit-button{
+    font-size: 26px;
+    color: #346e34;
+}
+.delete-button{
+    font-size: 26px;
+    color: red;
+}
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #777877;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.individual-select-check-box:checked{
+    background-color: #bdfcbd;
+}
+.selected-user{
+    background-color: rgb(212, 207, 207);
+    border-radius: 10px;
+    border: none;
+}
+
+.individual-title-item{
+    text-align: left;
+    font-size: 14px;
+}
+.name-container{
+    width: 120px;
+    margin-left: 50px;
+}
+.checkbox-input-container{
+    width: 30px;
+}
+.email-container{
+    width: 100px;
+    margin-left: 30px;
+}
+.role-container{
+    width: 100px;
+    margin-left: 50px;
+}
